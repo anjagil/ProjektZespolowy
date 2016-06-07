@@ -80,5 +80,25 @@ namespace projekt.Controllers
         {
             return View();
         }
+
+        //public ActionResult Wyszukaj(string lotnisko)
+        //{
+        //    string dd= ("SELECT  * FROM  Polaczenia WHERE POL_Miasto_poczatkowe= {0}", lotnisko);
+        //    return View();
+        //}
+
+        public ActionResult Prices()
+        {
+            ViewBag.Message = "Your prices page.";
+
+            return View();
+        }
+
+        public ActionResult News()
+        {
+            ViewBag.Message = "Your prices page.";
+
+            return View();
+        }
     }
 }

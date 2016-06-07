@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AirWrobel" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\gilan\\Downloads\\ProjektZespolowy-Fronted_Beata\\strona\\projekt\\projekt\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\gilan\\Downloads\\ProjektZespolowy-Fronted_Beata\\strona\\projekt\\projekt\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-projekt-20160423054641.mdf;Initial Catalog=aspnet-projekt-20160423054641;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gilan\\Downloads\\ProjektZespolowy-Fronted_Beata\\strona\\projekt\\projekt\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="projekt.Models.ApplicationDbContext-Web.config Connection String" description="" value="projekt.Models.ApplicationDbContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gilan\\Downloads\\ProjektZespolowy-Fronted_Beata\\strona\\projekt\\projekt\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='projekt.Models.ApplicationDbContext']/@connectionString" />
+  </parameter>
+</parameters>

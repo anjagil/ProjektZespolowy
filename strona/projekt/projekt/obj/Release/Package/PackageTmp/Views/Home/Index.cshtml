@@ -1,0 +1,119 @@
+﻿@{
+    ViewBag.Title = "Air Wróbel - linie lotnicze";
+}
+@model projekt.Models.SearchModel
+
+
+<div class="container search-box">
+    <h3 class="search-text">Wyszukaj lot</h3>
+    <form action="" class="search-text">
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <div class="col-md-12">
+            @Html.RadioButton("MyRadioButton", "A")
+            @Html.Label("Powrót")
+            @Html.RadioButton("MyRadioButton","B")
+            @Html.Label("W jedną stronę")
+            </div>
+       
+        <div class="col-lg-offset-0 glyphicon glyphicon-map-marker pull-left icon"></div>
+            <div class="form-group col-lg-3">
+                @Html.LabelFor(m => m.from, new { @class = "col-md-12  pull-left", @placeholder = "Lotnisko Początkowe" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(m => m.from, new { @class = "form-control" })
+                </div>
+            </div>
+        <div class="col-lg-offset-0 glyphicon glyphicon-map-marker pull-left icon"></div>
+            <div class="form-group col-lg-3">
+                @Html.LabelFor(m => m.to, new { @class = "col-md-12  pull-left", @placeholder = "Lotnisko Końcowe" })
+                <div class="col-md-12">
+                    @Html.TextBoxFor(m => m.to, new { @class = "form-control" })
+                </div>
+            </div>
+        <div class="col-lg-offset-0 glyphicon glyphicon-calendar pull-left icon"></div>
+            <div class="form-group col-lg-3">
+                @Html.LabelFor(m => m.flyDate, new { @class = "col-md-12  pull-left", @placeholder = "Data Wylotu" })
+                <div class="col-md-12">
+                    @Html.HiddenFor(m => m.flyDate, new { @class = "form-control" })
+                    <input type="date" name="flyDate" class="form-control" />
+                </div>
+            </div>
+        <div class="form-group">
+            <div class="col-md-3 pull-right">
+                <button type="submit" value="" class="search-button">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </div>
+        </div>
+
+</form>
+</div>
+
+    <div class="marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="col-md-3">
+            <div class="grid">
+                <figure class="effect-sarah">
+                    <img src="~/Obrazy/LotniskoInfo.JPG" alt="img13" />
+                    <figcaption>
+                        <h2>Informacje</h2>
+                        <p>Bądż na bieżąco- aktualne informacje
+                        <br />
+                            <a class="btn btn-lg btn-primary" href="#" role="button">Sprawdź</a>
+                        </p>
+                       
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+
+        <div class="col-md-3">
+            <div class="grid">
+                <figure class="effect-sarah">
+                    <img src="~/Obrazy/lotnisko2.jpg" alt="img13" />
+                    <figcaption>
+                        <h2>Informacje</h2>
+                        <p>
+                            Bądż na bieżąco- aktualne informacje
+                            <br />
+                            <a class="btn btn-lg btn-primary" href="#" role="button">Sprawdź</a>
+                        </p>
+
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="grid">
+                <figure class="effect-sarah">
+                    <img src="~/Obrazy/Tablica.jpg" alt="img13" />
+                    <figcaption>
+                        <h2>Informacje</h2>
+                        <p>
+                            Bądż na bieżąco- aktualne informacje
+                            <br />
+                            <a class="btn btn-lg btn-primary" href="#" role="button">Sprawdź</a>
+                        </p>
+
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="grid">
+                <figure class="effect-sarah">
+                    <img src="~/Obrazy/samolot3.jpg" alt="img13" />
+                    <figcaption>
+                        <h2>Informacje</h2>
+                        <p>
+                            Bądż na bieżąco- aktualne informacje
+                            <br />
+                            <a class="btn btn-lg btn-primary" href="#" role="button">Sprawdź</a>
+                        </p>
+
+                    </figcaption>
+                </figure>
+            </div>
+        </div>

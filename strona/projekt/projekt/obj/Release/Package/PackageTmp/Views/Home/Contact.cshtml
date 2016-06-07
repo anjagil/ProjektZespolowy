@@ -1,0 +1,44 @@
+﻿@using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+@model projekt.Models.ContactViewModel
+
+
+    ViewBag.Title = "Kontakt";
+
+
+@*<h3>@ViewBag.Message</h3>*@
+
+<div class="form-signin">
+    <h2>@ViewBag.Title</h2>
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, new { @class = "col-md-12  pull-left", @placeholder = "Imię..." })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.EmailAdress, new { @class = "col-md-12  pull-left" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.EmailAdress, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Text, new { @class = "col-md-12  pull-left" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(m => m.Text, new { @class = "form-control" })
+            <br />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-3 col-md-7">
+            <input type="submit" class="btn btn-lg btn-primary" value="Wyślij" />
+        </div>
+    </div>
+</div>
+    }
