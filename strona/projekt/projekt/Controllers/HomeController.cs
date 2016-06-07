@@ -69,5 +69,16 @@ namespace projekt.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult SearchFlyAction(string MyRadioButton)
+        {
+            return null;
+        }
+
+        public ActionResult Employed()
+        {
+            return View();
+        }
     }
 }

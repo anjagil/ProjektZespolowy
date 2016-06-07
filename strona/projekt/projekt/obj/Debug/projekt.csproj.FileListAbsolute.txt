@@ -241,7 +241,6 @@ C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\bin\Mic
 C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\obj\Debug\projekt.csprojResolveAssemblyReference.cache
 C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\obj\Debug\projekt.dll
 C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\obj\Debug\projekt.pdb
 C:\Users\sagan\Desktop\strona\projekt\projekt\bin\ApplicationInsights.config
@@ -326,3 +325,4 @@ C:\Users\sagan\Desktop\strona\projekt\projekt\bin\Microsoft.Owin.Security.Micros
 C:\Users\sagan\Desktop\strona\projekt\projekt\obj\Debug\projekt.dll
 C:\Users\sagan\Desktop\strona\projekt\projekt\obj\Debug\projekt.pdb
 C:\Users\sagan\Desktop\strona\projekt\projekt\obj\Debug\projekt.csprojResolveAssemblyReference.cache
+C:\Users\sagan\Desktop\Zespolowy\ProjektZespolowy\strona\projekt\projekt\obj\Debug\projekt.csprojResolveAssemblyReference.cache
